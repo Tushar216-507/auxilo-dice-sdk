@@ -92,7 +92,7 @@ else:
 
 ```python
 result = dice.whatsapp.send(
-    mobile_no='917977251637',
+    mobile_no='91XXXXXXXXXX',
     template_id='invoice_cleared',
     template_attr={
         'header_value': {'value': 'Acme Pvt Ltd'},
@@ -110,7 +110,7 @@ if result['success']:
 
 ```python
 result = dice.sms.send(
-    mobile_no='917977251637',
+    mobile_no='91XXXXXXXXXX',
     template_id='otp_template',
     template_attr={'otp': '123456'}
 )
